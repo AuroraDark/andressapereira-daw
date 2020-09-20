@@ -17,7 +17,7 @@ O usuario antonio é administrador.
 
 ### Metas Pessoais
 
-- [ ] Criar um menu para organizar o acesso dos arquivos contidos nesse repositório, separando aulas de exercícios.
+- [x] Criar um menu para organizar o acesso dos arquivos contidos nesse repositório, separando aulas de exercícios.
 
 ### Aulas
 
