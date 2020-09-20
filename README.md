@@ -1,7 +1,7 @@
-# Repositório dos exercícios de Desenvolvimento de Aplicações Web
+# Repositório dos exercícios de Desenvolvimento de Aplicações Web (3DAW)
 
 ### Aluna: Andressa Silva
-### Turno - Manhã
+### Turno: Manhã
 
 ## Check-List
 
@@ -14,10 +14,6 @@ Guardar na sessao sua identificação.
 Criar outro código php para mostrar o nome do usuário autenticado
 Sempre que o usuário administrador for identificado deverá ser mostrado o faturamento de vendas. 
 O usuario antonio é administrador.
-
-### Metas Pessoais
-
-- [x] Criar um menu para organizar o acesso dos arquivos contidos nesse repositório, separando aulas de exercícios.
 
 ### Aulas
 
@@ -35,5 +31,8 @@ O usuario antonio é administrador.
 - [x] Aula 04 - Form4 (php)
 - [x] Aula 04 - Form5 (php)
 
+### Metas Pessoais
+
+- [x] Criar um menu para organizar o acesso dos arquivos contidos nesse repositório, separando aulas de exercícios.
 
 ## Anotações Importantes
