@@ -5,16 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
-    <title>Menu 3DAW</title>
+    <title>AV1</title>
 </head>
 <body>
+    <div class="voltar"><a href="menu_av1.html">Voltar</a></div>
     <section class="content">
-        <h1>Menu 3DAW</h1>
-        <nav class="menu">
-            <a href="aulas.html">Aulas</a>
-            <a href="exercicios.html">Exercícios</a>
-            <a href="av.html">Avaliações</a>
-        </nav>
+        <h1>Listando Alunos</h1>
+        <?php
+            include "listar_aluno_server.php";
+        ?>
     </section>
 </body>
 </html>
