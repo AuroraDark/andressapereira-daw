@@ -13,6 +13,8 @@ O usuário deverá receber um feedback do sucesso ou falha da operação.
 A outra funcionalidade é de listar todos os Alunos em uma tabela html.
 A tabela de vera ter um cabeçalho e cada aluno deve estar em uma linha.
 
+- [x] Criar a funcionalidade Alterar Aluno
+
 ### Exercícios
 
 - [x] Criar um script php com ola mundo.
