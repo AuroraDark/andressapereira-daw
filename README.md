@@ -8,7 +8,7 @@
 ### AV1
 
 - [x] Criar duas funcionalidades.
-Uma de excluir aluno, onde o usuário vai entrar com a matricula do aluno e esse aluno será excluído do banco de dados. 
+Uma de excluir aluno, onde o usuário vai entrar com a mat do aluno e esse aluno será excluído do banco de dados. 
 O usuário deverá receber um feedback do sucesso ou falha da operação.
 A outra funcionalidade é de listar todos os Alunos em uma tabela html.
 A tabela de vera ter um cabeçalho e cada aluno deve estar em uma linha.

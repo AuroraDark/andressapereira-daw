@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {		
 	$nome = $_POST["nome"];
-	$mat = $_POST["matricula"];
+	$mat = $_POST["mat"];
 	$cpf = $_POST["cpf"];
 	$dtNasc = $_POST["dtNasc"];
 	$sql = "INSERT into Alunos (mat, NOME, cpf, DataNascimento) 

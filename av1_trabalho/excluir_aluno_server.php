@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 }
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {		
-	$mat = $_POST["matricula"];
+	$mat = $_POST["mat"];
 	$sql = "DELETE FROM Alunos where mat = " . $mat;
 	if ($conn->query($sql) === TRUE) {
 		include "sucesso.php";

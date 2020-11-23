@@ -5,18 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/form.css">
     <title>AV1</title>
 </head>
 <body>
-    <div class="voltar"><a href="../index.html">Voltar</a></div>
+    <div class="voltar"><a href="menu_av1.html">Voltar</a></div>
     <section class="content">
-        <h1>AV1</h1>
-        <nav class="menu">
-            <a href="inserir_aluno.php">Inserir Aluno</a>
-            <a href="alterar_aluno.php">Alterar Aluno</a>
-            <a href="excluir_aluno.php">Excluir aluno</a>
-            <a href="listar_alunos.php">Listar alunos</a>
-        </nav>
+        <h1>Alterar Aluno</h1>
+        <?php
+            include "altera_aluno_form.php";
+        ?>
     </section>
 </body>
 </html>

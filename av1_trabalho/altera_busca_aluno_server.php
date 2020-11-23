@@ -15,8 +15,8 @@ if ($conn->connect_error) {
 <?php
 include "html_inicio.php";
 ?>
-<h1>Excluir o aluno?</h1>
-<form action="excluir_aluno_server.php" method="POST">
+<h1>Alterar Aluno</h1>
+<form action="altera_aluno_server.php" method="POST">
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {		
 	$mat = $_POST["mat"];
@@ -28,9 +28,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		while ($linha = mysqli_fetch_assoc($resultado)) {
 			echo "<b>Mat:</b> " . $linha["mat"] . "<br><b> Nome:</b> " . $linha["NOME"] . "<br> <b>CPF:</b> " . $linha["cpf"] . "<br> <b>Data Nasc:</b> ". $linha["DataNascimento"] . "<br> ";
 			echo "<input type=hidden name='mat' value =  " . $linha["mat"] . "><br> ";
-			echo "<input type='submit' value='Excluir'/>";
+			echo "<input type='text' name='nome' placeholder='Nome' />";
+			echo "<input type='text' name='cpf' placeholder='CPF' />";
+			echo "<input type='text' name='dtNasc' placeholder='Data de Nascimento' />";
+			echo "<input type='submit' value='Alterar'/>";
 		}
-
 	} else {
 		echo "Aluno não encontrado";
 	}
