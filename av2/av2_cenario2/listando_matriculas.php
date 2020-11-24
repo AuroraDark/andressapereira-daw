@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "<td>" . $linha["matricula"] . "</td>";
             echo "<td>" . $linha["nomeAluno"] . "</td>";
             echo "<td>" . $linha["nomeDisc"] . "</td>";
-            echo "<td>" . "<form method='POST' action='matricula.php'><input type='hidden' name='matricula' value=".$linha["matricula"].">"."<input type='hidden' name='nomeAluno' value=".$linha["nomeAluno"].">"."<input type='hidden' name='nomeDisc' value=".$linha["nomeDisc"].">"."<input type='hidden' name='codTurma' value=".$codTurma.">"."<input type='hidden' name='codDisciplina' value=".$codDisciplina.">"."<input type='submit' value='Matricular-se'>"."></form>"."</td>";
+            echo "<td>" . "<form method='POST' action='matricula.php'><input type='hidden' name='matricula' value=".$linha["matricula"].">"."<input type='hidden' name='nomeAluno' value=".$linha["nomeAluno"].">"."<input type='hidden' name='nomeDisc' value=".$linha["nomeDisc"].">"."<input type='hidden' name='codTurma' value=".$codTurma.">"."<input type='hidden' name='codDisciplina' value=".$codDisciplina.">"."<input type='submit' value='Matricular-se'>"."</form>"."</td>";
             echo "</tr>";
 		}
 
