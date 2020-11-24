@@ -5,16 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
-    <title>Avaliações</title>
+    <title>AV1</title>
 </head>
 <body>
-    <div class="voltar"><a href="index.html">Voltar</a></div>
+    <div class="voltar"><a href="menu_av1.html">Voltar</a></div>
     <section class="content">
-        <h1>Avaliações</h1>
-        <nav class="menu">
-            <a href="av1_trabalho/menu_av1.html">AV1</a>
-            <a href="av2/menu_av2.html">AV2</a>
-        </nav>
+        <h1>Algo deu errado :(</h1>
     </section>
 </body>
 </html>

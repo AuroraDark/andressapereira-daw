@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 		while ($linha = mysqli_fetch_assoc($resultado)) {
 			echo "<b>Mat:</b> " . $linha["mat"] . "<br><b> Nome:</b> " . $linha["NOME"] . "<br> <b>CPF:</b> " . $linha["cpf"] . "<br> <b>Data Nasc:</b> ". $linha["DataNascimento"] . "<br> ";
-			echo "<input type=hidden name='mat' value =  " . $linha["mat"] . "><br> ";
+			echo "<input type='hidden' name='mat' value =  " . $linha["mat"] . "><br> ";
 			echo "<input type='text' name='nome' placeholder='Nome' />";
 			echo "<input type='text' name='cpf' placeholder='CPF' />";
 			echo "<input type='text' name='dtNasc' placeholder='Data de Nascimento' />";
