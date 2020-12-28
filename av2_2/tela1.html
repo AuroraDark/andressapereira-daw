@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="ajaxCidades.js"></script>
+    <title>AV2</title>
+</head>
+    <body onload="preencherCidades()"> <!-- O select é preenchido dinâmicamente pelo preencherCidades()-->
+        <div class="voltar"><a href="index.html">Voltar</a></div>
+        <section class="content">
+            <div id="section">
+                <h1>Escolha a cidade de melhor acesso</h1>
+                <form method="POST" class="formulario" action="periodo.php">
+                        <select name="cidade" id="cidade" required >
+                            <option value="" id="" selected>Selecione a cidade</option>
+                        </select><br><br>
+                    <input type="submit" id="submit" value="Continuar">
+                </form>
+            </div>  
+    </body>
+</html>
